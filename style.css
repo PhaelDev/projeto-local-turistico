@@ -8,10 +8,28 @@
   line-height: 120%;
   color: #1b1b1b;
 }
+body {
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 80%;
+  padding: 88px 80px 137px;
+  background-color: #f5f4f0;
+  
+
+}
 
 img {
   border-radius: 28px;
   width: 100%;
+}
+
+main section div img {
+  height: 375px;
+  object-fit: cover; /*Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer*/
+  margin-top: 44px;
 }
 
 .headline {
@@ -36,4 +54,8 @@ img {
   height: 1px;
   margin: 36px 0;
   background-color: #d9d9d9;
+}
+
+ul li::marker {
+  color: #333333;
 }
