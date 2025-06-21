@@ -74,8 +74,32 @@ p {
   font-weight: normal;
 }
 
+main {
+  padding: 24px;
+}
+
+section + section {
+  padding: 24px;
+}
+
 ul li::marker {
   color: #333333;
+}
+
+.item-historia {
+  color: #0c51a7;
+}
+
+.item-casais {
+  color: #591b98;
+}
+
+.item-familia {
+  color: #e5245e
+}
+
+.item-orçamento {
+  color: #e95e10;
 }
 
 footer {
