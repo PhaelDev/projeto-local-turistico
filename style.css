@@ -14,11 +14,9 @@ body {
 
 #page {
   box-sizing: border-box;
-  width: 80%;
+  width: 100%;
   padding: 88px 80px 137px;
   background-color: #f5f4f0;
-  
-
 }
 
 img {
@@ -56,6 +54,37 @@ main section div img {
   background-color: #d9d9d9;
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
 ul li::marker {
   color: #333333;
+}
+
+footer {
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+  width: 16px;
 }
